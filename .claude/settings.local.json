@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:gist.githubusercontent.com)",
       "Bash(find D:AndroidProjectNetandroid-gpuimage -name \"*.gradle\" -exec grep -l \"kotlin-android-extensions\\|android-extensions\" {} ;)",
-      "Bash(rg -l \"extensions\" --type gradle)"
+      "Bash(rg -l \"extensions\" --type gradle)",
+      "WebFetch(domain:jitpack.io)",
+      "Bash(./gradlew clean build)"
     ],
     "deny": []
   }
