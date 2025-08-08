@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:gist.githubusercontent.com)",
+      "Bash(find D:AndroidProjectNetandroid-gpuimage -name \"*.gradle\" -exec grep -l \"kotlin-android-extensions\\|android-extensions\" {} ;)",
+      "Bash(rg -l \"extensions\" --type gradle)"
+    ],
+    "deny": []
+  }
+}
