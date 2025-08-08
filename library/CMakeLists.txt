@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 
+project(GPUImage)
+
 # 创建共享库 (目标名: yuv-decoder)
 add_library(
         yuv-decoder  # 目标名称
